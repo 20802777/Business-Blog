@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "name": "John",
+      "familyName": "Doe",
+      "email": "john.doe@example.com",
+      "username": "johndoe",
+      "password": "password123",
+      "id": "cf46"
+    },
+    {
+      "id": "8133",
+      "name": "mahisa",
+      "familyName": "salehnezhad",
+      "email": "salehnejhadmahisa@gmail.com",
+      "username": "mahisa",
+      "password": "mahisa123"
+    },
+    {
+      "id": "b91b",
+      "name": "chilly",
+      "familyName": "salehnezhad",
+      "email": "salehnejhadmahisa@gmail.com",
+      "username": "chilly",
+      "password": "chilly123"
+    },
+    {
+      "id": "3526",
+      "name": "Mahissa",
+      "familyName": "Salehnezhad",
+      "email": "20802777@emu.edu.tr",
+      "username": "SeyedehMahissa",
+      "password": "Mahissa2001"
+    },
+    {
+      "id": "4404",
+      "name": "ghalya",
+      "familyName": "eldandashi",
+      "email": "ghalya@gmail.com",
+      "username": "ghalyael",
+      "password": "ghalya123"
+    },
+    {
+      "id": "8d03",
+      "name": "chillys",
+      "familyName": "chillys",
+      "email": "chillys@gmail.com",
+      "username": "chillys",
+      "password": "chillys"
+    }
+  ],
+  "posts": [
+    {
+      "title": "4 habits of highly successful business people",
+      "description": "Successful entrepreneurs and business people are found in every trade in life and dominate many different industries. But if you take those differences away you will soon discover that all these business people have a few personal things in common that have contributed to their success.",
+      "id": "post1",
+      "imageUrl": "C:/Users/clinic computer/Desktop/FinalProject/FinalProject/EVA Website/EVA Website/assets/e98c3021-88e5-4072-9d62-2b53375a2295.png"
+    }
+  ]
+}

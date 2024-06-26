@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post - EvaGroup</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" />
+    <link rel="stylesheet" href="../style/editpost.css">
+    <!-- Firebase App (the core Firebase SDK) -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <!-- Firebase Storage SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <!-- Initialize Firebase -->
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyBUy3UQGW_tYGPgjH0lPIVZSYqx3MGBl3c",
+        authDomain: "evaweb-ddfe7.firebaseapp.com",
+        projectId: "evaweb-ddfe7",
+        storageBucket: "evaweb-ddfe7.appspot.com",
+        messagingSenderId: "1014695403283",
+        appId: "1:1014695403283:web:8dcc1c3eb72290945504e6",
+        measurementId: "G-TQ4LQRP8XB"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="../js/navbar.js" ></script>
+    
+</head>
+<body>
+    <header>
+        <!-- Navbar content -->
+    </header>
+    <main>
+        <!-- Main content for form -->
+        <h1>Edit Post</h1>
+        <form id="editPostForm">
+            <div class="title">
+                <label for="postTitle">Title:</label>
+                <input type="text" id="postTitle" name="postTitle" required>
+            </div>
+            <div class="description">
+                <label for="postDescription">Description:</label>
+                <textarea id="postDescription" name="postDescription" required></textarea>
+            </div>
+            <div class="image">
+                <label for="postImage">Image:</label>
+                <input type="file" id="postImage" name="image" accept="image/*" required />
+            </div>
+            <button type="submit">Update Post</button>
+        </form>
+    </main>
+    <script src="../js/editpost.js"></script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+:root {
+    --default-font-family:"Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  body{
+    background-image:url(../assets/Screenshot\ 2024-05-18\ 104403.png);
+  }
+  
+  header{
+    background: linear-gradient(to right, #d1357a, #825ac0);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;  /* Added to fix the header at the top */
+    z-index: 1000;    /* Ensures the header is above other elements */
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  /* .main-container {
+    overflow: hidden;
+  } */
+  
+  /* .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  } */
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    
+    overflow: hidden;
+  }
+  .group {
+    position: relative;
+    width: 1325px;
+    height: 42px;
+    margin: 17px 0 0 26px;
+    z-index: 7;
+  }
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 42px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Andada Pro, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  
+  .texthome{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 28px;
+    top: 10px;
+    left: 650px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  
+  .text-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 28px;
+    top: 10px;
+    left: 922px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .text-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 14px;
+    top: 16px;
+    left: 1077px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .text-4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 14px;
+    top: 16px;
+    left: 1199px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .text-5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 14px;
+    top: 17px;
+    left: 783px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  
+  .myPostsText{
+    margin-top: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 28px;
+    top: 10px;
+    left: 900px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+    text-decoration: none;
+  }
+  .myPostsText a{
+    text-decoration: none;
+    color:white;
+  }
+  
+  .text-6 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 312px;
+    height: 100px;
+    margin: 141px 0 0 130px;
+    color: #000000;
+    font-family: Rubik, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+    z-index: 8;
+  }
+  .section {
+    position: relative;
+    width: 1440px;
+    height: 724px;
+    margin: 0 0 0 0;
+    z-index: 11;
+  }
+
+  .title{
+    margin-bottom: 10px;
+  }
+  .description{
+    margin-bottom: 10px;
+  }
+  .image{
+    margin-bottom: 10px;
+  }
+
+  button{
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#d1357a ;
+    margin-bottom: 10px;
+  }

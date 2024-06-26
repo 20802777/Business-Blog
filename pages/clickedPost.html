@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clicked Post</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap">
+  <link rel="stylesheet" href="../style/PostPage.css">
+  <!-- Include the navbar.js -->
+  <script src="../js/navbar.js" defer></script>
+  <script src="../js/clickedPost.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="main-container">
+      <nav class="navbar">
+        <div class="group">
+          <div class="logo"><span class="text">EvaGroup</span></div>
+          <ul class="nav-links">
+            <li><a href="../index.html" class="texthome">Home</a></li>
+            <li><a href="./signUp.html" class="text-2">Sign Up</a></li>
+            <li><a href="./login.html" class="text-3">Login</a></li>
+            <li><a href="./createPost.html" class="text-4" style="display: none;">Create Post</a></li>
+            <li><a href="./aboutUs.html" class="text-5">About</a></li>
+            <li><a href="./myPosts.html" id="myposts-link" style="display: none;" class="myPostsText">My Posts</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <br/>
+    <br/>
+    <section class="post-content">
+      <span class="text-6" id="postTitle">Loading...</span>
+      <div class="pic" id="postImage"></div>
+      <div class="wrapper">
+        <span class="brainstorm-business-idea" id="postDescription">Loading...</span>
+      </div>
+      <span class="text-c" id="postDate">Loading...</span>
+    </section>
+  </main>
+  <footer>
+    <div class="section-2">
+      <span class="text-d">You Can Check Our Social Media</span>
+      <span class="text-e">© Copyright 2024, EvaGroup LLC. All rights reserved.</span>
+      <div class="wrapper-2">
+        <div class="pic-2"></div>
+        <div class="pic-3"></div>
+        <div class="pic-4"></div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

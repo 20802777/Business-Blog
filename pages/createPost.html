@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Post Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;600;900&display=swap" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../style/createPost.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+<script>
+  const firebaseConfig = {
+  apiKey: "AIzaSyBUy3UQGW_tYGPgjH0lPIVZSYqx3MGBl3c",
+  authDomain: "evaweb-ddfe7.firebaseapp.com",
+  projectId: "evaweb-ddfe7",
+  storageBucket: "evaweb-ddfe7.appspot.com",
+  messagingSenderId: "1014695403283",
+  appId: "1:1014695403283:web:8dcc1c3eb72290945504e6",
+  measurementId: "G-TQ4LQRP8XB"
+};
+  firebase.initializeApp(firebaseConfig);
+  </script>
+  </head>
+  <body>
+    <div class="main-container">
+      <span class="text">Create New Post</span>
+      <form id="createPostForm">
+      <div class="form-group">
+        <button type="submit" class="Button"><span class="text-2">Create Post</span></button> <!-- Use type="submit" for form submission -->
+        <div class="img"></div>
+        <input type="text" id="postTitle" class="section" name="title" required />
+        <label class="text-3" for="postTitle">Title:</label>
+        <input type="text" class="wrapper" id="description" />
+        <label class="text-4" for="postDescription">Post Description:</label>
+        <textarea id="postDescription" class="box" name="description" required></textarea>
+        <span class="text-5">Post:</span>
+        <div class="group">
+          <div class="container">
+            <div class="img-area">
+              <i class='bx bx-cloud-upload icon'></i>
+              <h3>Upload Image</h3>
+              <p>Image Size must be less than <span>2MB</span></p>
+            </div>
+            <input type="file" id="postImage" class="img-input" name="image" accept="image/*" required />
+          </div>
+        </div>
+        <label class="text-a" for="postImage">Upload Image:</label><button type="button" class="Button-4"><a href="../index.html">Cancel</a></button>
+      </div>
+    </form>
+    </div>
+    <script src="../js/createPost.js"></script>
+  </body>
+</html>

@@ -1,0 +1,412 @@
+:root {
+  --default-font-family: "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+body{
+  background-image:url(../assets/Screenshot\ 2024-05-18\ 104403.png);
+}
+
+header{
+  background: linear-gradient(to right, #d1357a, #825ac0);
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;  /* Added to fix the header at the top */
+  z-index: 1000;    /* Ensures the header is above other elements */
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+/* .main-container {
+  overflow: hidden;
+} */
+a {
+  text-decoration: none;
+}
+/* .main-container,
+.main-container * {
+  box-sizing: border-box;
+} */
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  /* background: #ffffff; */
+  overflow: hidden;
+}
+.group {
+  position: relative;
+  width: 1325px;
+  height: 42px;
+  margin: 17px 0 0 26px;
+  z-index: 7;
+}
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 42px;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Andada Pro, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 42px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.texthome{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 28px;
+  top: 10px;
+  left: 650px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+
+.text-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 28px;
+  top: 10px;
+  left: 922px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.text-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 14px;
+  top: 16px;
+  left: 1077px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+.text-4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 14px;
+  top: 16px;
+  left: 1199px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.text-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 14px;
+  top: 17px;
+  left: 783px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.text-6 {
+  display: block;
+  position: relative;
+  height: 56px;
+  margin: 83px 0 0 472px;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 17;
+}
+.pic {
+  position: relative;
+  width: 973px;
+  height: 449px;
+  margin: 39px 0 0 252px;
+  background: url(../assets/3393e4872fa1795137067132fe16df7698aaa907.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+  border-radius: 15px;
+}
+.wrapper {
+  position: relative;
+  width: 998px;
+  height: 533px;
+  margin: 66px 0 0 241px;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.125px;
+  text-align: left;
+  z-index: 18;
+}
+.brainstorm-business-idea {
+  position: relative;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+.franchise-guide {
+  position: relative;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  text-decoration: underline;
+}
+.brainstorm-business-idea-1 {
+  position: relative;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+.patenting-idea {
+  position: relative;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  text-decoration: underline;
+}
+.brainstorm-business-idea-2 {
+  position: relative;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+.text-c {
+  display: block;
+  position: relative;
+  height: 35px;
+  margin: 701px 0 0 235px;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 19;
+}
+.section-2 {
+  position: relative;
+  width: 1440px;
+  height: 165px;
+  margin: 94px 0 0 0;
+  font-size: 0px;
+  background: none;
+  z-index: 9;
+  overflow: visible auto;
+}
+.text-d {
+  display: block;
+  position: relative;
+  height: 25px;
+  margin: 5px 0 0 134px;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.text-e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 320px;
+  height: 25px;
+  margin: 6px 0 0 1112px;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.234px;
+  text-align: left;
+  z-index: 13;
+}
+.wrapper-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 136px;
+  height: 34px;
+  margin: -8px 0 0 152px;
+  z-index: 12;
+}
+.pic-2 {
+  flex-shrink: 0;
+  position: relative;
+  width: 33px;
+  height: 33px;
+  background: url(../assets/8a004a1fccbc3664ed953955b067eafcc2dc2d8b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.pic-3 {
+  flex-shrink: 0;
+  position: relative;
+  width: 37px;
+  height: 33px;
+  background: url(../assets/4fb26556b527451da0bd711442ce06cbf43394c6.png)
+    no-repeat center;
+  background-size: contain;
+  z-index: 11;
+}
+.pic-4 {
+  flex-shrink: 0;
+  position: relative;
+  width: 36px;
+  height: 34px;
+  background: url(../assets/d67af4e81fd15c149c50df6d0be3c78f74febdbe.png)
+    no-repeat center;
+  background-size: contain;
+  z-index: 12;
+}
+/* .pic-5 {
+  position: absolute;
+  width: 1440px;
+  height: 77px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/ff2ca275-36a7-4ba4-adfc-7aba37c3d09e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+} */
+/* .img {
+  position: absolute;
+  width: 1440px;
+  height: 2164px;
+  top: 77px;
+  left: 0px;
+  background: url(../assets/4bc7bd6a-fd55-47ba-ae34-023c53542bac.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;
+} */
+
+.postSection{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 2em;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1154px;
+  /* height: 414px; */
+  margin: 120px 0 0 143px;
+  z-index: 9;
+}
+
+.myPostsText{
+  margin-top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 28px;
+  top: 10px;
+  left: 900px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+  text-decoration: none;
+}
+.myPostsText a{
+  text-decoration: none;
+  color:white;
+}
